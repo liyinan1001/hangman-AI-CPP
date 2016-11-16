@@ -1,0 +1,14 @@
+Compile:
+Change to current directory, then run in terminal `g++ ./*.cpp -o output -lcurl`
+
+Run:
+play it by `./output`
+it will print the result of every play and the target sentence
+
+Logic of this program:
+It uses naive bayes to infer each word of the sentence. So it doesn't exploit the order of words. 
+It uses a word frequency list from http://norvig.com/ngrams/count_1w.txt
+
+
+
+Tested in Mac OS 10.11
